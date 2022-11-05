@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43748C72290F28CE0070E09C /* Digest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Digest.entitlements; sourceTree = "<group>"; };
 		438774CF290F22AD00730A66 /* Digest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Digest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438774D2290F22AD00730A66 /* DigestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestApp.swift; sourceTree = "<group>"; };
 		438774D4290F22AD00730A66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		438774D1290F22AD00730A66 /* Digest */ = {
 			isa = PBXGroup;
 			children = (
+				43748C72290F28CE0070E09C /* Digest.entitlements */,
 				438774D2290F22AD00730A66 /* DigestApp.swift */,
 				438774D4290F22AD00730A66 /* ContentView.swift */,
 				438774D6290F22AE00730A66 /* Assets.xcassets */,
@@ -264,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Digest/Digest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Digest/Preview Content\"";
@@ -293,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Digest/Digest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Digest/Preview Content\"";
